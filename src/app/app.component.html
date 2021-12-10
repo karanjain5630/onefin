@@ -1,0 +1,9 @@
+
+<app-navbar class="mat-app-background" (darkMode)="toggleMode($event)"></app-navbar>
+<section  style="min-height: 80vh;" ngxUiLoaderBlurred class="mat-app-background" [ngClass]="checkMode()"> 
+    <router-outlet ></router-outlet> 
+</section>
+<footer class="footer" style="background-color: rgb(211, 43, 107);">
+
+  
+
